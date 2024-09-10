@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+	--color-hover-menu:#FE8F01;
+	--fondo-header:#3d3d3d;
+	--fondo-footer: #333333;
+	--letra-footer: #bababa;
+	--color-titulo-grande: #666;
+	--color-titulos: #000;
+	--fondo-counter: #000;
+}
+body{
+	font-size: 14px;
+}
+header{
+	background-color: var(--fondo-header);
+	padding: 10px 0;
+}
+
+#hero-title{
+	background-image: url("../img/slide-2.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 15% 0;
+	text-align: center;
+	background-color: var(--color-fondo-header);
+	background-blend-mode: multiply;
+}
+#hero-title h1{
+	font-size: 80px;
+	font-weight: 700;
+	color: #fff;
+}
+#hero-title h4{
+	color: #fff;
+	font-weight: 200;
+}
+
+.titulo-grande{
+	padding: 70px 0;
+	font-size: 30px;
+	color: var(--color-titulo-grande);
+}
+
+
+#about .tarjeta{
+	background-color: #666;
+	padding: 60px 30px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#about .tarjeta h2{
+	font-weight: 500;
+	margin-bottom: 30px;
+	color: #FFFFFF
+}
+
+#about .tarjeta p{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+#about i{
+	margin-top: 10px;
+	font-size: 40px;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+
+#counter{
+	background-color: var(--fondo-counter);	
+	text-align: center;
+}
+
+#counter h3{
+	padding: 10px 0;
+	color:#FFFFFF;
+	font-weight: 100;
+}
+
+#counter h5{
+	color: #fe8f01;
+	font-weight: 300;
+	margin-bottom: 30px
+}
+
+#counter i{
+	margin-top: 10px;
+	font-size: 40px;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--letra-footer);
+	padding: 15px 0;
+	text-align: center;
+}
+
